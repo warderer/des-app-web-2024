@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/f/meqyzbkl" method="post">
+        <label for="name">Your Name</label>
+        <input name="Name" id="name" type="text">
+        <br>
+        <label for="email">Your Email</label>
+        <input name="Email" id="email" type="email">
+        <br>
+        <label for="password">Your Password</label>
+        <input name="Pass" id="password" type="password">
+
+        <p>Escriba su sexo: </p>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label>
+        <br>
+        <label for="carrera">Elige tu carrera:</label>
+        <select name="carrera" id="carrera">
+            <option value="1">Ingeniería en Diseño Multimedia</option>
+            <option value="2">Licenciatura en Medicina</option>
+            <option value="3">Ingeniería Mecatrónica</option>
+            <option value="4">Licenciatura en Derecho</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
